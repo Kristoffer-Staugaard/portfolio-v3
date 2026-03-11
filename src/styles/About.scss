@@ -6,6 +6,7 @@
   background-color: #0a0a0a;
   border-radius: 0 0 0.75rem 0.75rem;
   padding: 1rem;
+  padding-top: 2.5rem;
   gap: 1rem;
   z-index: 10;
   position: relative;
@@ -18,6 +19,7 @@
   .testimonial-block {
     display: flex;
     flex-direction: column;
+    min-width: 0;
     min-height: 500px;
     background-color: #171717;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -40,6 +42,7 @@
       z-index: 20;
       display: flex;
       flex-direction: column;
+      width: 100%;
       padding: 2rem 1.5rem;
       position: relative;
       align-items: flex-start;
@@ -49,6 +52,7 @@
       border-radius: 0.5rem;
       text-align: left;
       overflow: hidden;
+      box-sizing: border-box;
 
       @media (min-width: 768px) {
         padding: 3rem 2rem;
@@ -155,6 +159,7 @@
     .marquee-area {
       flex: 1;
       width: 100%;
+      min-width: 0;
       position: relative;
       overflow: hidden;
       background-color: #0a0a0a;
@@ -167,30 +172,6 @@
 
       @media (min-width: 1024px) {
         padding: 0;
-      }
-
-      .fade-left,
-      .fade-right {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 3rem;
-        z-index: 20;
-        pointer-events: none;
-
-        @media (min-width: 768px) {
-          width: 6rem;
-        }
-      }
-
-      .fade-left {
-        left: 0;
-        background: linear-gradient(to right, #0a0a0a, transparent);
-      }
-
-      .fade-right {
-        right: 0;
-        background: linear-gradient(to left, #0a0a0a, transparent);
       }
 
       .marquee-scroll {
@@ -210,7 +191,7 @@
           flex-shrink: 0;
 
           .mockup-review-card {
-            width: 320px;
+            width: 260px;
             background-color: #111;
             border-radius: 1rem;
             padding: 1rem;
@@ -225,10 +206,11 @@
             transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.6s, border-color 0.6s;
             position: relative;
             font-family: monospace;
-            margin: 1rem 3rem 3rem 1rem;
+            margin: 1rem 1.5rem 2rem 0.5rem;
 
             @media (min-width: 768px) {
               width: 380px;
+              margin: 1rem 3rem 3rem 1rem;
             }
 
             /* 3D CRT Thickness (Right Side) */
@@ -374,7 +356,7 @@
                   margin-bottom: auto;
                   font-weight: 300;
                   font-family: 'Inter', sans-serif;
-                  
+
                   &::before {
                     content: ">";
                     color: #fd4d1e;
@@ -460,6 +442,8 @@
   .location-block {
     display: flex;
     flex-direction: column;
+    min-width: 0;
+    max-width: 100%;
     background-color: #171717;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 0.75rem;
@@ -648,6 +632,8 @@
   .toolbox-block {
     display: flex;
     flex-direction: column;
+    min-width: 0;
+    max-width: 100%;
     background-color: #171717;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 0.75rem;
@@ -708,26 +694,6 @@
         padding: 0;
       }
 
-      .fade-left,
-      .fade-right {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 4rem;
-        z-index: 10;
-        pointer-events: none;
-      }
-
-      .fade-left {
-        left: 0;
-        background: linear-gradient(to right, #0a0a0a, transparent);
-      }
-
-      .fade-right {
-        right: 0;
-        background: linear-gradient(to left, #0a0a0a, transparent);
-      }
-
       .icons-scroll {
         display: flex;
         align-items: center;
@@ -735,6 +701,7 @@
         padding: 0 1.5rem;
         overflow-x: auto;
         width: 100%;
+        max-width: 100vw;
         position: relative;
         z-index: 0;
         scrollbar-width: none;

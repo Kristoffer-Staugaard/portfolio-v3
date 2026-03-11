@@ -31,7 +31,7 @@ export default function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <div className="footer-copy">© {new Date().getFullYear()} Staugaard Studio. Alle rettigheder forbeholdes.</div>
+            <div className="footer-copy">© {new Date().getFullYear()} Staugaard Studio</div>
           </div>
         </footer>
       </main>

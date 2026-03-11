@@ -64,9 +64,6 @@ export default function About() {
         </div>
 
         <div className="marquee-area">
-          <div className="fade-left"></div>
-          <div className="fade-right"></div>
-
           <div className="marquee-scroll">
             {/* Group 1 */}
             <div className="marquee-group">
@@ -86,12 +83,12 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="https://storage.googleapis.com/a1aa/image/qfXwG5a2S0yBBSyH32hQW612f0vK8Wf8N5yY_342A0E.jpg"
-                        alt="Kenny Glud"
+                        src="/testimonials/gitte.png"
+                        alt="Gitte Lage"
                         loading="lazy"
                       />
                       <div>
-                        <p className="name">Kenny Glud</p>
+                        <p className="name">Gitte Lage</p>
                         <p className="role">Ejer og stifter</p>
                       </div>
                     </div>
@@ -119,12 +116,12 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="https://storage.googleapis.com/a1aa/image/4yB2_8Y6B2Z8W623X8024Y_921Q_6y2W841Z0w02w3Y.jpg"
-                        alt="Lovz Klose"
+                        src="/testimonials/kenny.png"
+                        alt="Kenny Gluds"
                       />
                       <div>
-                        <p className="name">Lovz Klose</p>
-                        <p className="role">Formand</p>
+                        <p className="name">Kenny Gluds</p>
+                        <p className="role">Ejer og stifter</p>
                       </div>
                     </div>
                   </div>
@@ -151,11 +148,11 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="https://storage.googleapis.com/a1aa/image/X82w0_840Y2_3X2w80Y_2w04Y_82w0Y_82w0Y_82w0Y.jpg"
-                        alt="Gitte Lage"
+                        src="/testimonials/lovz.png"
+                        alt="Lovz Klose"
                       />
                       <div>
-                        <p className="name">Gitte Lage</p>
+                        <p className="name">Lovz Klose</p>
                         <p className="role">Ejer</p>
                       </div>
                     </div>
@@ -186,12 +183,12 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="https://storage.googleapis.com/a1aa/image/qfXwG5a2S0yBBSyH32hQW612f0vK8Wf8N5yY_342A0E.jpg"
-                        alt="Kenny Glud"
+                        src="/testimonials/gitte.png"
+                        alt="Gitte Lage"
                         loading="lazy"
                       />
                       <div>
-                        <p className="name">Kenny Glud</p>
+                        <p className="name">Gitte Lage</p>
                         <p className="role">Ejer og stifter</p>
                       </div>
                     </div>
@@ -219,12 +216,12 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="https://storage.googleapis.com/a1aa/image/4yB2_8Y6B2Z8W623X8024Y_921Q_6y2W841Z0w02w3Y.jpg"
-                        alt="Lovz Klose"
+                        src="/testimonials/kenny.png"
+                        alt="Kenny Gluds"
                       />
                       <div>
-                        <p className="name">Lovz Klose</p>
-                        <p className="role">Formand</p>
+                        <p className="name">Kenny Gluds</p>
+                        <p className="role">Ejer og stifter</p>
                       </div>
                     </div>
                   </div>
@@ -251,11 +248,11 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="https://storage.googleapis.com/a1aa/image/X82w0_840Y2_3X2w80Y_2w04Y_82w0Y_82w0Y_82w0Y.jpg"
-                        alt="Gitte Lage"
+                        src="/testimonials/lovz.png"
+                        alt="Lovz Klose"
                       />
                       <div>
-                        <p className="name">Gitte Lage</p>
+                        <p className="name">Lovz Klose</p>
                         <p className="role">Ejer</p>
                       </div>
                     </div>
@@ -332,8 +329,6 @@ export default function About() {
           <p>Design & Udvikling stack</p>
         </div>
         <div className="icons-area">
-          <div className="fade-left"></div>
-          <div className="fade-right"></div>
           <div className="icons-scroll">
             <div className="icon-box" title="Figma">
               <img src="https://cdn.simpleicons.org/figma/737373" alt="Figma" className="brand-icon" />
