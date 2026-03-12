@@ -66,13 +66,13 @@ export default function Projects() {
               </div>
 
               <div className="mockup-ascii-decor">
-                <img src="/projects/logos/callbuddy-logo.png" alt="Callbuddy Logo" className="mockup-logo" />
+                <img src="./projects/logos/callbuddy-logo.png" alt="Callbuddy Logo" className="mockup-logo" />
               </div>
             </div>
             <div className="mockup-content" onClick={() => window.open("https://www.callbuddy.dk/", "_blank")} style={{ cursor: "pointer" }}>
               {/* Replace src with your actual project screenshot */}
               <img
-                src="/projects/callbuddy-mockup.png"
+                src="./projects/callbuddy-mockup.png"
                 alt="Callbuddy Project Screenshot"
                 className="mockup-image"
                 loading="lazy"
@@ -117,7 +117,7 @@ export default function Projects() {
               <div className="mockup-notch"></div>
               <div className="mockup-mobile-status">
                 <span className="time">
-                  <img src="/projects/logos/bookido-logo.png" alt="Bookido Logo" className="mockup-logo" style={{ height: '8px' }} />
+                  <img src="./projects/logos/bookido-logo.png" alt="Bookido Logo" className="mockup-logo" style={{ height: '8px' }} />
                 </span>
                 <span className="battery">{`BATT OK`}</span>
               </div>
@@ -125,7 +125,7 @@ export default function Projects() {
             <div className="mockup-mobile-content" onClick={() => window.open("https://www.figma.com/design/apFOr6DI7R0PqId9H5OS14/Bookido--Community-?node-id=0-1&t=2PY7aXMtyPU5Bs7Y-1", "_blank")} style={{ cursor: "pointer" }}>
               {/* Replace src with your actual project screenshot */}
               <img
-                src="/projects/bookido-mockup.png"
+                src="./projects/bookido-mockup.png"
                 alt="Bookido App Screenshot"
                 className="mockup-image"
                 loading="lazy"
@@ -179,13 +179,13 @@ export default function Projects() {
                 </div>
 
                 <div className="mockup-ascii-decor" style={{ fontSize: "0.6rem" }}>
-                  <img src="/projects/logos/airplate-logo.png" alt="Airplate Logo" className="mockup-logo" />
+                  <img src="./projects/logos/airplate-logo.png" alt="Airplate Logo" className="mockup-logo" />
                 </div>
               </div>
               <div className="mockup-content" onClick={() => window.open("https://airplate.dk/", "_blank")} style={{ cursor: "pointer" }}>
                 {/* Replace src with your actual project screenshot */}
                 <img
-                  src="/projects/airplate-mockup.png"
+                  src="./projects/airplate-mockup.png"
                   alt="AirPlate Project Screenshot"
                   className="mockup-image"
                   loading="lazy"
@@ -231,13 +231,13 @@ export default function Projects() {
                 </div>
 
                 <div className="mockup-ascii-decor">
-                  <img src="/projects/logos/wellness-by-gitte-logo.png" alt="Wellness Logo" className="mockup-logo" />
+                  <img src="./projects/logos/wellness-by-gitte-logo.png" alt="Wellness Logo" className="mockup-logo" />
                 </div>
               </div>
               <div className="mockup-content" onClick={() => window.open("https://www.wellnessbygittelage.dk/", "_blank")} style={{ cursor: "pointer" }}>
                 {/* Replace src with your actual project screenshot */}
                 <img
-                  src="/projects/wellness-by-gitte-mockup.png"
+                  src="./projects/wellness-by-gitte-mockup.png"
                   alt="Wellness by Gitte Project Screenshot"
                   className="mockup-image"
                   loading="lazy"
@@ -287,13 +287,13 @@ export default function Projects() {
               </div>
 
               <div className="mockup-ascii-decor">
-                <img src="/projects/logos/gluds-cafe-logo.png" alt="Gluds Cafe Logo" className="mockup-logo" />
+                <img src="./projects/logos/gluds-cafe-logo.png" alt="Gluds Cafe Logo" className="mockup-logo" />
               </div>
             </div>
             <div className="mockup-content" onClick={() => window.open("https://www.gludscafe.dk/", "_blank")} style={{ cursor: "pointer" }}>
               {/* Replace src with your actual project screenshot */}
               <img
-                src="/projects/gluds-cafe-mockup.png"
+                src="./projects/gluds-cafe-mockup.png"
                 alt="Gluds Cafe Project Screenshot"
                 className="mockup-image"
                 loading="lazy"
@@ -341,13 +341,13 @@ export default function Projects() {
               </div>
 
               <div className="mockup-ascii-decor">
-                <img src="/projects/logos/justesen-logo.png" alt="Justesen Logo" className="mockup-logo" />
+                <img src="./projects/logos/justesen-logo.png" alt="Justesen Logo" className="mockup-logo" />
               </div>
             </div>
             <div className="mockup-content" onClick={() => window.open("https://artpack.dk/", "_blank")} style={{ cursor: "pointer" }}>
               {/* Replace src with your actual project screenshot */}
               <img
-                src="/projects/justesen-artpack-mockup.png"
+                src="./projects/justesen-artpack-mockup.png"
                 alt="Justesen Artpack Project Screenshot"
                 className="mockup-image"
                 loading="lazy"

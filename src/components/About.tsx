@@ -83,7 +83,7 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="/testimonials/gitte.png"
+                        src="./testimonials/gitte.png"
                         alt="Gitte Lage"
                         loading="lazy"
                       />
@@ -116,7 +116,7 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="/testimonials/kenny.png"
+                        src="./testimonials/kenny.png"
                         alt="Kenny Gluds"
                       />
                       <div>
@@ -148,7 +148,7 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="/testimonials/lovz.png"
+                        src="./testimonials/lovz.png"
                         alt="Lovz Klose"
                       />
                       <div>
@@ -183,7 +183,7 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="/testimonials/gitte.png"
+                        src="./testimonials/gitte.png"
                         alt="Gitte Lage"
                         loading="lazy"
                       />
@@ -216,7 +216,7 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="/testimonials/kenny.png"
+                        src="./testimonials/kenny.png"
                         alt="Kenny Gluds"
                       />
                       <div>
@@ -248,7 +248,7 @@ export default function About() {
                     </p>
                     <div className="author">
                       <img
-                        src="/testimonials/lovz.png"
+                        src="./testimonials/lovz.png"
                         alt="Lovz Klose"
                       />
                       <div>
