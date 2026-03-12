@@ -5,7 +5,9 @@
   border: 1px solid var(--border-color);
   border-radius: 0.5rem;
   border-bottom-width: 1px;
-  margin: 3rem 3rem 0;
+  margin: 3rem auto 0;
+  width: calc(100% - 6rem);
+  max-width: 1920px;
   top: 0;
   right: 0;
   left: 0;
