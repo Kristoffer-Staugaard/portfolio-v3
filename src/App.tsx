@@ -1,3 +1,4 @@
+import LoadingScreen from "./components/LoadingScreen";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Mission from "./components/Mission";
@@ -10,6 +11,7 @@ import "./styles/FooterCta.scss";
 export default function App() {
   return (
     <>
+      <LoadingScreen />
       <Navbar />
       <main>
         <Hero />
